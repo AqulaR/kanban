@@ -17,7 +17,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin: 1.5%;
+	margin: 1% 1.5% 1% 1.5%;
 }
 
 .upleft{
@@ -46,7 +46,7 @@
 	width: 160px;
 	background-color: white;
 	opacity: .5;
-	margin-right: 5%;
+	margin-right: 2%;
 }
 
 
@@ -85,7 +85,11 @@
 	margin-bottom: 100px;
 }
 
+
+/* tasks */
+
 .addtsk{
+	border: 0px;
 	border-radius: 10px;
 	width: 100%;
 	height: 58px;
@@ -101,9 +105,58 @@
 	height: 165px;
 	background: rgba(255, 255, 255, 0.5);
 	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
 }
 
 .bname{
 	width: 90%;
 	margin-top: 4%;
+}
+
+
+.srochno{
+	border-radius: 10px;
+	background: rgba(255, 98, 98, 0.7);
+	width: 37%;
+	height: 22px;
+	margin: 5% 0 4% 5%;
+}
+
+.nesrochno{
+
+}
+
+.opisaniesh{
+	border-radius: 10px;
+	background: rgba(176, 176, 176, 0.7);
+	width: 55%;
+	height: 22px;
+	margin: 0 3% 3% 5%;
+}
+
+.opisanielg{
+	border-radius: 10px;
+	background: rgba(176, 176, 176, 0.7);
+	width: 75%;
+	height: 22px;
+	margin: 0 3% 2% 5%;
+}
+
+.niz{
+	margin: 0 3% 3% 3%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nizleft{
+	display: flex;
+	justify-content: space-between;
+	width: 18%;
+	margin-left: 3%;
+	height: 24px;
+}
+
+.nizright{
+
 }
