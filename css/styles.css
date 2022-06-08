@@ -1,8 +1,9 @@
 .strelka {
+	border-radius: 2px;
     border: solid black;
     border-width: 0 3px 3px 0;
     display: inline-block;
-    padding: 3px;
+    padding: 5px;
 	transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
@@ -114,19 +115,6 @@
 	margin-top: 4%;
 }
 
-
-.srochno{
-	border-radius: 10px;
-	background: rgba(255, 98, 98, 0.7);
-	width: 37%;
-	height: 22px;
-	margin: 5% 0 4% 5%;
-}
-
-.nesrochno{
-
-}
-
 .opisaniesh{
 	border-radius: 10px;
 	background: rgba(176, 176, 176, 0.7);
@@ -152,11 +140,52 @@
 .nizleft{
 	display: flex;
 	justify-content: space-between;
-	width: 18%;
+	width: 35%;
 	margin-left: 3%;
-	height: 24px;
+	height: 30px;
 }
 
-.nizright{
+.wtime{
+	display: flex;
+	margin-top: 5px;
+}
 
+.checkbox{
+	display: flex;	
+}
+.nizright2{
+	width:12%;
+	height: 20px;
+	display: flex;
+}
+
+.elements{
+	opacity: 0.65;
+}
+/*Status*/
+
+.status{
+	border-radius: 10px;
+	width: 37%;
+	height: 22px;
+	margin: 5% 0 4% 5%;
+}
+.srochno{
+	background: rgba(255, 98, 98, 0.7);
+}
+
+.nesrochno{
+	background: rgba(139, 255, 98, 0.7);
+}
+
+.med{
+	background: rgba(251, 255, 78, 0.7);
+}
+
+.supernesrochno{
+	background: rgba(98, 123, 255, 0.7);
+}
+
+.vipolneno{
+	background: rgba(98, 123, 255, 0.7);                                            
 }
